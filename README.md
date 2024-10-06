@@ -3,7 +3,8 @@
 
 ## Middle Level
 1. **Advanced Data Structures**
-   - List comprehensions => 1.py
+   - Lists => 1.py
+   - Tuples => 2.py
    - Dictionary comprehensions
    - Sets operations
    - Generators and iterators

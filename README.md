@@ -7,6 +7,7 @@
    - Tuples => 2.py
    - Dictionaries => 3.py
    - Sets => 4.py
+   - Strings => 5.py
    - Generators and iterators
 
 2. **File Handling**

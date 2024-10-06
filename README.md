@@ -5,7 +5,7 @@
 1. **Advanced Data Structures**
    - Lists => 1.py
    - Tuples => 2.py
-   - Dictionary comprehensions
+   - Dictionaries => 3.py
    - Sets operations
    - Generators and iterators
 

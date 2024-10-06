@@ -8,6 +8,7 @@
    - Dictionaries => 3.py
    - Sets => 4.py
    - Strings => 5.py
+   - byte arrays => 6.py
    - Generators and iterators
 
 2. **File Handling**

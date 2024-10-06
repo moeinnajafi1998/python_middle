@@ -10,7 +10,7 @@
    - Strings => 5.py
    - byte arrays => 6.py
    - other data structures => 7.py
-   - Generators and iterators
+   - Generators and iterators => 8.py
 
 2. **File Handling**
    - Reading from and writing to files

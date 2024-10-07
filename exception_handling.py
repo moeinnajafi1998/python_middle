@@ -108,3 +108,33 @@ except CustomError as e:
 # Here, CustomError is a user-defined exception, and it behaves just like other Python exceptions.
 
 # Summary of Exception Handling Components
+
+# Example: Full Exception Handling Flow
+
+def safe_division(a, b):
+    try:
+        result = a / b
+    except ZeroDivisionError:
+        print("Division by zero is not allowed.")
+    except TypeError:
+        print("Both values must be numbers.")
+    else:
+        print(f"The result is {result}")
+    finally:
+        print("Execution complete.")
+
+safe_division(10, 2)  # The result is 5.0, Execution complete.
+safe_division(10, 0)  # Division by zero is not allowed., Execution complete.
+safe_division(10, "a")  # Both values must be numbers., Execution complete.
+# In this example:
+
+# try block executes the division.
+# except blocks handle specific errors (ZeroDivisionError, TypeError).
+# else runs if no exception occurs.
+# finally always runs at the end, cleaning up or finishing the execution.
+# Best Practices for Exception Handling:
+# Catch Specific Exceptions: It’s a good idea to catch specific exceptions instead of using a generic except.
+# Avoid Swallowing Exceptions: Do not leave except blocks empty, as it suppresses exceptions without handling them.
+# Use finally for Cleanup: Always use finally for cleanup actions like closing files or releasing resources.
+# Don’t Overuse Exceptions: Use exceptions for exceptional cases (i.e., errors), not for regular flow control.
+# By using exception handling effectively, you can make your Python code more robust and handle unexpected conditions gracefully.

@@ -3,10 +3,14 @@
 
 ## Middle Level
 1. **Advanced Data Structures**
-   - List comprehensions
-   - Dictionary comprehensions
-   - Sets operations
-   - Generators and iterators
+   - Lists => 1.py
+   - Tuples => 2.py
+   - Dictionaries => 3.py
+   - Sets => 4.py
+   - Strings => 5.py
+   - byte arrays => 6.py
+   - other data structures => 7.py
+   - Generators and iterators => 8.py
 
 2. **File Handling**
    - Reading from and writing to files
@@ -29,3 +33,9 @@
    - Inheritance
    - Polymorphism
    - Encapsulation
+   - Interface
+
+5. **Some Other Concepts**
+   - *args and **kargs
+   - Function v.s. Method
+   - Lambda Expression 

@@ -191,8 +191,6 @@ d = D()
 d.do_something()
 
 # Output:
-# rust
-# Copy code
 # A's method
 # C's method
 # B's method

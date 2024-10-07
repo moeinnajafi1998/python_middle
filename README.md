@@ -38,4 +38,4 @@
 5. **Some Other Concepts**
    - *args and **kargs
    - Function v.s. Method
-   - Lambda
+   - Lambda Expression 

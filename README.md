@@ -34,3 +34,6 @@
    - Polymorphism
    - Encapsulation
    - Interface
+
+5. **Some Other Concepts**
+   - *args and **kargs

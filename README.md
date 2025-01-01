@@ -39,3 +39,4 @@
    - *args and **kargs
    - Function v.s. Method
    - Lambda Expression 
+   - types of methods => 12.py
